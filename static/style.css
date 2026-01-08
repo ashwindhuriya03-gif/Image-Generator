@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+form {
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: #e7e5e5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 8px 14px;
+    cursor: pointer;
+    background-color: rgb(50, 196, 237);
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+.card-header button {
+    padding: 8px 14px;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+#myImage {
+    height: 300px;
+    margin-top: 10px;
+}
